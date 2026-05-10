@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **HackStack**
-*Last updated: April 29, 2026*
+*Last updated: May 10, 2026*
 
 ## Overview
 
@@ -20,6 +20,8 @@ HackStack uses the following third-party services:
 ### Google AdMob (Advertising)
 
 HackStack displays advertisements provided by Google AdMob. Google may collect and use data to serve personalised ads, including device identifiers, usage data, and approximate location. You can control ad personalisation through your device settings or when prompted by the consent dialog on first launch.
+
+**App Tracking Transparency.** On first launch (after the GDPR/CCPA consent dialog completes), HackStack presents Apple's standard "Allow [App] to track your activity" dialog. This is required by Apple before any tracking-enabled SDK can read your IDFA (Identifier for Advertisers). Granting permission allows AdMob to deliver personalised ads; denying permission means ads will still be shown, but they will not be personalised. This choice can be revisited at any time via iOS Settings > Privacy & Security > Tracking.
 
 For details on how Google handles your data, see:
 - [Google's Privacy Policy](https://policies.google.com/privacy)
@@ -50,7 +52,9 @@ HackStack does not knowingly collect data from children under 13. Since the app 
 
 ## Data Storage
 
-All game progress is stored locally on your device using standard iOS storage mechanisms. Uninstalling the app will delete all game data. We have no access to your saved game data.
+All game progress is stored locally on your device using standard iOS storage mechanisms. Uninstalling the app will delete all local game data. We have no access to your saved game data.
+
+**iCloud sync (optional).** HackStack offers an optional iCloud Key-Value sync feature, controlled via Settings > System > iCloud Sync. When enabled, your game progress is synchronised across your iOS devices via Apple's iCloud Key-Value Store under your own Apple ID. This data is held in your iCloud account, not on our servers — we have no access to it. You can disable iCloud sync at any time. The "Wipe Cloud Save" option in Settings clears the iCloud-synchronised copy. Uninstalling the app does not automatically delete iCloud-synchronised data; use the wipe option in Settings or the iOS Settings > [Your Name] > iCloud > Manage Storage flow.
 
 ## Your Rights
 
