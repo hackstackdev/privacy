@@ -1,36 +1,29 @@
 # Privacy Policy
-
 **HackStack**
-*Last updated: April 29, 2026*
+*Last updated: May 10, 2026*
 
 ## Overview
-
 HackStack is a free-to-play mobile game developed by an independent developer. Your privacy matters, and this policy explains what data is and isn't collected.
 
 ## Data We Collect
-
-**We don't collect any personal data.** HackStack does not require an account, login, email address, or any personal information to play. All gameplay data (progress, settings, preferences) is stored locally on your device and is never transmitted to our servers.
+**We don't collect any personal data.** HackStack does not require an account, login, email address, or any personal information to play. All gameplay data (progress, settings, preferences) is stored locally on your device, with optional iCloud sync described below.
 
 **Anonymous crash diagnostics.** When the app crashes, anonymous diagnostic data is collected via Firebase Crashlytics to help fix the bug. This is limited to: the crash stack trace, your device model, iOS version, and the HackStack app version. No personal data, no account identifiers, no gameplay data, and no advertising identifiers are included. You can disable this entirely in Settings → System → Send Crash Reports. See the Firebase Crashlytics section below for details.
 
 ## Third-Party Services
-
 HackStack uses the following third-party services:
 
 ### Google AdMob (Advertising)
-
 HackStack displays advertisements provided by Google AdMob. Google may collect and use data to serve personalised ads, including device identifiers, usage data, and approximate location. You can control ad personalisation through your device settings or when prompted by the consent dialog on first launch.
+
+**App Tracking Transparency (ATT).** On first launch, iOS displays an App Tracking Transparency permission prompt asking whether HackStack and Google AdMob may access your device's Identifier for Advertisers (IDFA) to show you personalised ads. If you decline, you will still see ads, but they will be non-personalised and Google will not use your IDFA to track you across other apps. You can change this choice at any time in iOS Settings → Privacy & Security → Tracking → HackStack.
 
 For details on how Google handles your data, see:
 - [Google's Privacy Policy](https://policies.google.com/privacy)
 - [How Google Uses Information from Sites or Apps That Use Our Services](https://policies.google.com/technologies/partner-sites)
 
-You can opt out of personalised advertising via your iOS device settings under Settings > Privacy & Security > Tracking.
-
 ### Firebase Crashlytics (Crash Reporting)
-
 HackStack uses Firebase Crashlytics, a service provided by Google, to collect anonymous diagnostic data when the app crashes. The data captured is strictly limited to:
-
 * The crash stack trace (which line of code crashed)
 * Your device model (e.g. iPhone 15 Pro)
 * Your iOS version
@@ -45,27 +38,25 @@ You can opt out at any time in **Settings → System → Send Crash Reports** in
 For details on how Google handles Crashlytics data, see [Firebase's Privacy and Security page](https://firebase.google.com/support/privacy).
 
 ## Children's Privacy
-
 HackStack does not knowingly collect data from children under 13. Since the app collects no personal data, there is no age-gated data collection.
 
 ## Data Storage
+All game progress is stored locally on your device using standard iOS storage mechanisms. Uninstalling the app will delete all locally stored game data. We have no access to your saved game data.
 
-All game progress is stored locally on your device using standard iOS storage mechanisms. Uninstalling the app will delete all game data. We have no access to your saved game data.
+### Optional iCloud Sync
+HackStack supports optional iCloud sync to keep your save data consistent across your iOS devices signed in to the same Apple ID. When enabled, your save data is stored in your private iCloud key-value store via Apple's NSUbiquitousKeyValueStore service. This data is encrypted in transit and at rest by Apple, accessible only to your devices, and never visible to us.
+
+iCloud sync is enabled by default and can be turned off at any time in **Settings → System → iCloud Sync** in the app. Disabling sync stops further uploads but does not delete data already stored in your iCloud account; to remove that data, sign in to iCloud.com or iOS Settings → [your name] → iCloud and manage HackStack's storage there.
 
 ## Your Rights
-
-Under UK GDPR and other applicable data protection laws, you have the right to access, correct, or delete your personal data. Since HackStack does not collect personal data, there is no data for us to provide, correct, or delete. For data collected by Google AdMob and Firebase Crashlytics, please refer to Google's privacy policy linked above and Firebase's Privacy and Security page linked in the Crashlytics section.
+Under UK GDPR and other applicable data protection laws, you have the right to access, correct, or delete your personal data. Since HackStack does not collect personal data, there is no data for us to provide, correct, or delete. For data collected by Google AdMob and Firebase Crashlytics, please refer to Google's privacy policy linked above and Firebase's Privacy and Security page linked in the Crashlytics section. iCloud-stored save data is controlled directly by you through your iCloud account.
 
 ## Changes to This Policy
-
 We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated revision date.
 
 ## Contact
-
 If you have questions about this privacy policy, please contact us at:
-
 **Email:** hackstack.dev@gmail.com
 
 ---
-
 *This privacy policy applies to the HackStack iOS application.*
